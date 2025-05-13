@@ -11,6 +11,12 @@ namespace EvaluacionGitHub_LP
         static void Main(string[] args)
         {
             Console.WriteLine("Proyecto de ventas");
+            MostrarDatos();
+        }
+        static void MostrarDatos()
+        {
+            Console.WriteLine("Laura Sofía Páramo Hernández");
+            Console.WriteLine("Número de carnet 20500918");
         }
     }
 }
